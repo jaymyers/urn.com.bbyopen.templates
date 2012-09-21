@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book>
+		<id>book:urn:com:bbyopen:templates</id>
+		<title>BBY Open V2 Template Module</title>
+		<desc>Module that defines data templates</desc>
+		<toc>
+			<item id="urn:com:bbyopen:templates:guide"/>
+			<item id="urn:com:bbyopen:templates:example"/>
+		</toc>
+	</book>
+</books>

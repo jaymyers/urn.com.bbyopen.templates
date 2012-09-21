@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+	<test>
+		<id>test:urn:com:bbyopen:templates</id>
+		<name>BBY Open V2 Template Module</name>
+		<desc>Module that defines data templates</desc>
+		<uri>res:/resources/test/testlist.xml</uri>
+	</test>
+</tests>

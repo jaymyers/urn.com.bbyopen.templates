@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="2.0">
+   <meta>
+      <identity>
+         <uri>urn:com:bbyopen:templates</uri>
+         <version>1.0.0</version>
+      </identity>
+      <info>
+         <name>BBY Open V2 Template Module</name>
+         <description>Module that defines data templates</description>
+         <icon>res:/BBY_Open_V2_Template_Module/pub/icon.png</icon>
+      </info>
+   </meta>
+   <system>
+      <dynamic/>
+   </system>
+   <rootspace name="BBY Open V2 Template Module - Development Space" uri="urn:com:bbyopen:templates">
+  	 <endpoint>
+      	<grammar>
+      		<active>
+      			<identifier>active:templateMapper</identifier>
+      			<argument name="domain"/>
+      			<argument name="method"/>
+      		</active>
+      	</grammar>
+      	<class>com.bbyopen.templates.TemplateMapper</class>
+      </endpoint>
+   </rootspace>
+</module>
